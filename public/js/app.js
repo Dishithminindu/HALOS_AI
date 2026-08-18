@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const l=document.getElementById('loader');if(l)setTimeout(()=>l.classList.add('hidden'),650);const d=document.querySelector('input[type=date]');if(d&&!d.value)d.value=new Date().toISOString().slice(0,10);});
