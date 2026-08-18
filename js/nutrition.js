@@ -1,0 +1,1 @@
+window.HALOS_NUTRITION={sodium(food,q){return Number(food.sodiumMg||0)*Number(q||0)/Number(food.servingSize||100)},salt(s){return s*2.5/1000}};
