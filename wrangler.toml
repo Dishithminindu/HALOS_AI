@@ -1,0 +1,8 @@
+name = "halos-api"
+main = "src/index.js"
+compatibility_date = "2026-08-18"
+
+# Cloudflare Workers Static Assets
+[assets]
+directory = "./public"
+binding = "ASSETS"
