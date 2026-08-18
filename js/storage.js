@@ -1,1 +1,0 @@
-window.HALOS_STORAGE={get(k,f=null){try{return JSON.parse(localStorage.getItem('halos_'+k))??f}catch{return f}},set(k,v){localStorage.setItem('halos_'+k,JSON.stringify(v))}};
